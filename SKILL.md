@@ -6,6 +6,11 @@ name: dy-launch
 description: 抖音起号冷启动数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音起号冷启动｜账号定位·对标取样·内容规划·首月排期"
+display_name_en: "Douyin Launch"
+description_zh: "抖音起号冷启动数据源（只读，无需登录）：关键词搜索视频与图文、用户/达人搜索、博主作品与粉丝互动、单条作品详情、视频评论、实时热榜，全部输出结构化 JSON。用于新账号定位与对标取样、人设与内容方向确定、首批选题池搭建、首月发布排期与发文节奏复盘。支持综合/最多点赞/最新排序，以及时间、时长、内容类型多维筛选；按量 Token 单次最多 10000 条，包月视频搜索/用户搜索/作品最多 30、评论最多 50。不登录、不发布、不点赞、不评论，无封号风险；零第三方依赖，Node.js 内置模块直接运行。触发词：抖音起号、抖音冷启动、新号定位、对标账号、选题规划。"
+description_en: "Douyin (TikTok China) cold-start data source for new-account launch planning - read-only, no login required. It provides keyword video and photo search, user and creator search, creator works with follower and engagement metrics, single-video detail, video comments and the real-time Douyin hot list, all returned as structured JSON for AI analysis. Use it to define a new account's positioning, sample benchmark creators, choose persona and content direction, build a first batch of topics and plan the first-month publishing calendar. Sort by relevance, most-liked or newest, and filter by time window, duration and content type. Hard limit is 10,000 items per call; monthly plans cap search and creator works at 30 and comments at 50. It never logs in, publishes, likes or comments, so there is no account risk. Zero dependencies, runs on Node.js 16.14+."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
